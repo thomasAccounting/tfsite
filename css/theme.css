@@ -1325,7 +1325,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 		font-weight: 700;
 		padding: 0.5rem 1rem;
 		letter-spacing: -0.5px;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 	}
 
 	#header .header-nav-main nav > ul > li > a:after {
