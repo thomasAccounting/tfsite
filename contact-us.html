@@ -53,6 +53,29 @@
 		<!-- Head Libs -->
 		<script src="vendor/modernizr/modernizr.min.js"></script>
 
+		<style>
+		        .map-container {
+		            width: 100%;
+		            height: 0;
+		            padding-bottom: 75%; /* Aspect ratio 4:3 */
+		            position: relative;
+		            border: 1px solid black;
+		        }
+		        .map-iframe {
+		            position: absolute;
+		            top: 0;
+		            left: 0;
+		            width: 100%;
+		            height: 100%;
+		            border: 0;
+		        }
+		        .map-link {
+		            display: block;
+		            text-align: center;
+		            margin-top: 5px;
+		        }
+	    	</style>
+
 	</head>
 	<body data-target="#header" data-spy="scroll" data-offset="100">
 
@@ -246,9 +269,10 @@
 							        <div class="card-body p-4 z-index-1">
 							            <h4 class="text-color-dark font-weight-semibold text-5 line-height-3 ls-0 mb-1 mt-2 pr-5 mr-5">Τοποθεσία</h4>
 							            <p class="pb-2 mb-4">Το γραφείο μας:</p>
-							            <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=23.733864426612854%2C38.01351215579163%2C23.737404942512516%2C38.01535486051401&amp;layer=mapnik&amp;marker=38.01443351394354%2C23.735634684562683" style="border: 1px solid black"></iframe>
-							            <br/><small><a href="https://www.openstreetmap.org/?mlat=38.01443&amp;mlon=23.73563#map=19/38.01443/23.73563">Προβολή Χάρτη</a></small>
-							        </div>
+							            <div class="map-container">
+								        <iframe class="map-iframe" src="https://www.openstreetmap.org/export/embed.html?bbox=23.733864426612854%2C38.01351215579163%2C23.737404942512516%2C38.01535486051401&amp;layer=mapnik&amp;marker=38.01443351394354%2C23.735634684562683"></iframe>
+								    </div>
+								    <small class="map-link"><a href="https://www.openstreetmap.org/?mlat=38.01443&amp;mlon=23.73563#map=19/38.01443/23.73563">Προβολή Χάρτη</a></small>
 							    </div>
 							</div>
 						</div>
