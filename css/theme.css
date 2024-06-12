@@ -1489,7 +1489,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 		font-weight: 600;
 		margin-top: 20px;
 		padding-bottom: 10px;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 		letter-spacing: -0.5px;
 	}
 
@@ -1583,7 +1583,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 	#header .header-nav-main.header-nav-main-font-lg-upper nav > ul > li > a {
 		font-size: 0.95rem;
 		font-weight: 700;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 		letter-spacing: -1px;
 	}
 
@@ -1705,7 +1705,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 		font-style: normal;
 		font-weight: 700;
 		letter-spacing: -0.5px;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 		position: relative;
 		background: transparent !important;
 		color: #444;
@@ -3254,7 +3254,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 	}
 
 	#header .header-nav-main nav > ul > li > a {
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 		font-weight: 700;
 		margin-top: 1px;
 		margin-bottom: 1px;
@@ -3563,7 +3563,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 		color: #333333;
 		font-size: 0.85em;
 		font-weight: 600;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 		letter-spacing: -0.5px;
 	}
 
